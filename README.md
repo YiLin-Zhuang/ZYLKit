@@ -1,3 +1,11 @@
 # ZYLKit
+## 如何使用
+# Cocoapods
+```
+pod 'ZYLKit'
+```
 
-A description of this package.
+# Swift Package Manager
+```
+https://github.com/sdf0822/ZYLKit.git
+```
