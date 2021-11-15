@@ -1,20 +1,14 @@
 # ZYLKit
-## 如何使用
-# Cocoapods
-```
-pod 'ZYLKit'
-```
+[![Version](https://img.shields.io/cocoapods/v/ZYLKit.svg?style=flat)](https://cocoapods.org/pods/ZYLKit)
+[![License](https://img.shields.io/cocoapods/l/ZYLKit.svg?style=flat)](https://cocoapods.org/pods/ZYLKit)
+[![Platform](https://img.shields.io/cocoapods/p/ZYLKit.svg?style=flat)](https://cocoapods.org/pods/ZYLKit)
+
+## Example
 
 # Swift Package Manager
 ```
 https://github.com/sdf0822/ZYLKit.git
 ```
-
-[![Version](https://img.shields.io/cocoapods/v/zwlKitPublic.svg?style=flat)](https://cocoapods.org/pods/ZYLKit)
-[![License](https://img.shields.io/cocoapods/l/zwlKitPublic.svg?style=flat)](https://cocoapods.org/pods/ZYLKit)
-[![Platform](https://img.shields.io/cocoapods/p/zwlKitPublic.svg?style=flat)](https://cocoapods.org/pods/ZYLKit)
-
-## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
