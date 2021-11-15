@@ -5,16 +5,19 @@
 
 ## Example
 
-# Swift Package Manager
+## Swift Package Manager
+```swift
+dependencies: [
+    .package(url: "https://github.com/Alamofire/Alamofire.git")
+]
 ```
-https://github.com/sdf0822/ZYLKit.git
-```
+
+## CocoaPods
+### Requirements
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
-## Installation
+### Installation
 
 ZYLKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
