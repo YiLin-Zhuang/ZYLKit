@@ -33,4 +33,4 @@ sdf0822@yilin10.tw
 
 ## License
 
-zwlKitPublic is available under the MIT license. See the LICENSE file for more info.
+ZYLKit is available under the MIT license. See the LICENSE file for more info.
