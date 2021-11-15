@@ -29,7 +29,7 @@ pod 'ZYLKit'
 
 ## Author
 
-sdf0822@yilin10.tw
+sdf0822@yilin10.tw, yilin.tw
 
 ## License
 
