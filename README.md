@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/ZYLKit.svg?style=flat)](https://cocoapods.org/pods/ZYLKit)
 
 ## Example
-[Keychain](/Sources/ZYLKit/Helper/README.md#keychain) 
+[Keychain](#keychain) 
 
 
 ## Swift Package Manager
@@ -36,3 +36,31 @@ sdf0822@yilin10.tw, https://yilin10.tw
 ## License
 
 ZYLKit is available under the MIT license. See the LICENSE file for more info.
+
+---
+
+# Keychain
+## 使用 Keychain sharing
+```swift
+Keychain.setGroupName("Group.Name")
+```
+
+## 寫入 Keychain 
+```swift
+_ = Keychain.save(str: "content", forKey: "key")
+```
+
+## 讀取 Keychain 
+```swift
+Keychain.load(key: "key")
+```
+
+## 刪除 Keychain
+```swift
+Keychain.delete(key: "key")
+```
+
+## 刪除所有 Keychain
+```swift
+_ = Keychain.clear()
+```
