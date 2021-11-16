@@ -9,11 +9,11 @@ import Foundation
 import Security
 
 public class Keychain {
-    public static let shared = Keychain()
+    private static let shared = Keychain()
     
     private init() {}
     
-    public var keychainAccessGroupName = ""
+    private var keychainAccessGroupName = ""
     
     public class func save(str: String?, forKey: String) -> Bool {
         if str == nil {
@@ -75,5 +75,9 @@ public class Keychain {
         let status: OSStatus = SecItemDelete(query as CFDictionary)
 
         return status == noErr
+    }
+    
+    public class func setGroupName(_ name: String) {
+        Keychain.shared.keychainAccessGroupName = name
     }
 }
