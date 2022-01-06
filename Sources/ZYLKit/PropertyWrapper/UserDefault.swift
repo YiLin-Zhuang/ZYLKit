@@ -9,36 +9,16 @@
 import Foundation
 
 @propertyWrapper
-struct UserDefaultWrapper<T> {
-    let key: String
-    let defaultValue: T
+public struct UserDefault<T: Codable> {
+    public let key: String
+    public let defaultValue: T
 
-    init(_ key: String, defaultValue: T) {
-        self.key = key
-        self.defaultValue = defaultValue
-    }
-
-    var wrappedValue: T {
-        get {
-            return UserDefaults.standard.object(forKey: key) as? T ?? defaultValue
-        }
-        set {
-            
-            UserDefaults.standard.set(newValue, forKey: key)
-        }
-    }
-}
-
-@propertyWrapper struct UserDefaultEncoded<T: Codable> {
-    let key: String
-    let defaultValue: T
-
-    init(key: String, default: T) {
-        self.key = key
+    public init(_ userDefaultsKey: String, default: T) {
+        self.key = userDefaultsKey
         defaultValue = `default`
     }
 
-    var wrappedValue: T {
+    public var wrappedValue: T {
         get {
             guard let jsonString = UserDefaults.standard.string(forKey: key) else {
                 return defaultValue
