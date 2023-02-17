@@ -11,7 +11,7 @@
 ## Swift Package Manager
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Alamofire/Alamofire.git")
+    .package(url: "https://github.com/YiLin-Zhuang/ZYLKit.git")
 ]
 ```
 
@@ -31,7 +31,7 @@ pod 'ZYLKit'
 
 ## Author
 
-sdf0822@yilin10.tw, https://yilin10.tw
+info@yilin.tw, https://yilin.tw
 
 ## License
 
